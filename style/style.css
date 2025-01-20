@@ -69,20 +69,20 @@ p {
   display: none;
 }
 .top-animation {
-  animation: marquee 15s linear infinite;
+  animation: ImuBahi 15s linear infinite;
 }
 .top-marquee {
   font-size: 2em;
 }
-@keyframes marquee {
+@keyframes ImuBahi {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   50% {
-    transform: translateX(50%);
+    transform: translateX(60%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(0%);
   }
 }
 
