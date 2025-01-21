@@ -263,6 +263,7 @@ p {
 }
 .Our-box1 p {
   width: 474px;
+  padding-bottom: 35px;
 }
 .smill-img h4 {
   margin-top: 20px;
@@ -381,12 +382,15 @@ ul.footer-ul {
   body {
     padding: 0px 15px;
   }
+  .Standard-style h1 {
+    font-size: 2rem;
+  }
   .top-hrader-style {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px 8px 0px;
-    border-bottom: 1px solid var(--parimary-color);
+    border-bottom: 1px solid #fa570052;
   }
   /* section#hero-section */
   .hero-style {
@@ -418,6 +422,7 @@ ul.footer-ul {
   .Our-box1 {
     display: none;
   }
+
   .smill-img {
     width: 100%;
     padding: 0px;
@@ -445,7 +450,7 @@ ul.footer-ul {
     margin-top: 25px;
     padding-bottom: 40px;
   }
- 
+
   .nav-bar {
     display: block;
     font-size: 30px;
@@ -504,6 +509,16 @@ ul.footer-ul {
     flex-direction: column;
     align-items: center;
   }
+  .Our-boxs {
+    text-align: center;
+  }
+  .Our-box1 h3 {
+    padding: 35px 0px;
+    font-size: 1.5rem;
+    width: 420px;
+    margin-left: 32px;
+  }
+
   .footer-Education {
     padding: 25px;
   }
